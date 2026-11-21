@@ -1,0 +1,392 @@
+{
+  "real_model": "gemma-4-31b-it-qat-w4a16-ct",
+  "hardware": "4x NVIDIA L4",
+  "notebook_version": 2,
+  "runs": [
+    {
+      "variant": "A",
+      "task": "rich_3063",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 1355,
+      "tool_calls": 10,
+      "llm_calls": 11,
+      "wall_seconds": 305.7768083540001,
+      "successful_model_responses": 11,
+      "max_successful_input_tokens": 11741,
+      "total_reported_input_tokens": 75170,
+      "total_reported_output_tokens": 7728,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 3,
+        "Architect (Diagnosis Architect)": 9
+      },
+      "patch_files": [
+        ".agent_state/R-001/task_board.yaml",
+        "reproduce_issue.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "D",
+      "task": "rich_3063",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 1911,
+      "tool_calls": 20,
+      "llm_calls": 22,
+      "wall_seconds": 303.29460650299995,
+      "successful_model_responses": 22,
+      "max_successful_input_tokens": 14066,
+      "total_reported_input_tokens": 183129,
+      "total_reported_output_tokens": 9722,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 3,
+        "Architect (Diagnosis Architect)": 20
+      },
+      "patch_files": [
+        ".agent_state/R-001/task_board.yaml",
+        "reproduce_issue.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "B",
+      "task": "rich_3063",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 2074,
+      "tool_calls": 12,
+      "llm_calls": 14,
+      "wall_seconds": 303.29248110899994,
+      "successful_model_responses": 14,
+      "max_successful_input_tokens": 8800,
+      "total_reported_input_tokens": 85058,
+      "total_reported_output_tokens": 7312,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 4,
+        "Architect (Diagnosis Architect)": 11
+      },
+      "patch_files": [
+        ".agent_state/R-001/delivery_register.yaml",
+        ".agent_state/R-001/task_board.yaml",
+        "reproduce_issue.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "C",
+      "task": "rich_3063",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 2422,
+      "tool_calls": 31,
+      "llm_calls": 33,
+      "wall_seconds": 303.2797782320001,
+      "successful_model_responses": 33,
+      "max_successful_input_tokens": 14661,
+      "total_reported_input_tokens": 323381,
+      "total_reported_output_tokens": 10249,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 4,
+        "Architect (Diagnosis Architect)": 30
+      },
+      "patch_files": [
+        ".agent_state/R-001/delivery_register.yaml",
+        ".agent_state/R-001/task_board.yaml",
+        "reproduce_backslash.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "A",
+      "task": "fastapi_11194",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 848,
+      "tool_calls": 31,
+      "llm_calls": 35,
+      "wall_seconds": 308.4363445509998,
+      "successful_model_responses": 35,
+      "max_successful_input_tokens": 15980,
+      "total_reported_input_tokens": 302340,
+      "total_reported_output_tokens": 9532,
+      "context_error_count": 1,
+      "roles": {
+        "Project Manager": 7,
+        "Architect (Diagnosis Architect)": 30
+      },
+      "patch_files": [
+        "reproduce_issue.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "B",
+      "task": "fastapi_11194",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 3259,
+      "tool_calls": 32,
+      "llm_calls": 36,
+      "wall_seconds": 304.44641787699993,
+      "successful_model_responses": 36,
+      "max_successful_input_tokens": 16289,
+      "total_reported_input_tokens": 310960,
+      "total_reported_output_tokens": 9687,
+      "context_error_count": 1,
+      "roles": {
+        "Project Manager": 5,
+        "Architect (Diagnosis Architect)": 33
+      },
+      "patch_files": [
+        "reproduce_issue.py",
+        "reproduction.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "C",
+      "task": "fastapi_11194",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 3086,
+      "tool_calls": 20,
+      "llm_calls": 25,
+      "wall_seconds": 304.518889724,
+      "successful_model_responses": 25,
+      "max_successful_input_tokens": 18918,
+      "total_reported_input_tokens": 245939,
+      "total_reported_output_tokens": 9529,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 8,
+        "Architect (Diagnosis Architect)": 17,
+        "Worker": 1
+      },
+      "patch_files": [
+        "repro_issue.py",
+        "reproduction.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "D",
+      "task": "fastapi_11194",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 1534,
+      "tool_calls": 30,
+      "llm_calls": 33,
+      "wall_seconds": 304.49866673199995,
+      "successful_model_responses": 33,
+      "max_successful_input_tokens": 20568,
+      "total_reported_input_tokens": 387086,
+      "total_reported_output_tokens": 9101,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 5,
+        "Architect (Diagnosis Architect)": 29
+      },
+      "patch_files": [
+        "reproduce_issue.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "A",
+      "task": "requests_6629",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 6070,
+      "tool_calls": 20,
+      "llm_calls": 22,
+      "wall_seconds": 368.1425549559999,
+      "successful_model_responses": 22,
+      "max_successful_input_tokens": 12962,
+      "total_reported_input_tokens": 170712,
+      "total_reported_output_tokens": 9676,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 4,
+        "Architect (Diagnosis Architect)": 19
+      },
+      "patch_files": [
+        "check_fixed_reduce.py",
+        "check_json_reduce.py",
+        "check_mock_reduce.py",
+        "check_mro.py",
+        "reproduce_issue.py",
+        "reproduce_json_only.py",
+        "reproduce_pickle_error.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "B",
+      "task": "requests_6629",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 3283,
+      "tool_calls": 18,
+      "llm_calls": 20,
+      "wall_seconds": 367.72106247400006,
+      "successful_model_responses": 20,
+      "max_successful_input_tokens": 10005,
+      "total_reported_input_tokens": 129631,
+      "total_reported_output_tokens": 10341,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 4,
+        "Architect (Diagnosis Architect)": 17
+      },
+      "patch_files": [
+        "check_reduce.py",
+        "debug_mro.py",
+        "reproduce_pickle_error.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "C",
+      "task": "requests_6629",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 3508,
+      "tool_calls": 11,
+      "llm_calls": 13,
+      "wall_seconds": 367.70321218699974,
+      "successful_model_responses": 13,
+      "max_successful_input_tokens": 8049,
+      "total_reported_input_tokens": 67962,
+      "total_reported_output_tokens": 6289,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 4,
+        "Architect (Diagnosis Architect)": 10
+      },
+      "patch_files": [
+        "check_mro.py",
+        "check_reduce.py",
+        "reproduce_issue.py"
+      ],
+      "product_source_files_modified": []
+    },
+    {
+      "variant": "D",
+      "task": "requests_6629",
+      "resolved": false,
+      "error": "Agent exceeded session timeout (5 min)",
+      "test_exit_code": 1,
+      "patch_characters": 4959,
+      "tool_calls": 11,
+      "llm_calls": 13,
+      "wall_seconds": 367.70197332099997,
+      "successful_model_responses": 13,
+      "max_successful_input_tokens": 8357,
+      "total_reported_input_tokens": 74205,
+      "total_reported_output_tokens": 9061,
+      "context_error_count": 0,
+      "roles": {
+        "Project Manager": 4,
+        "Architect (Diagnosis Architect)": 10
+      },
+      "patch_files": [
+        "check_json_impl.py",
+        "check_mro.py",
+        "debug_pickle.py",
+        "reproduce_pickle_error.py"
+      ],
+      "product_source_files_modified": []
+    }
+  ],
+  "groups": [
+    {
+      "variant": "A",
+      "runs": 3,
+      "resolved": 0,
+      "context_errors": 1,
+      "max_successful_input_tokens": 15980,
+      "successful_model_responses": 68
+    },
+    {
+      "variant": "B",
+      "runs": 3,
+      "resolved": 0,
+      "context_errors": 1,
+      "max_successful_input_tokens": 16289,
+      "successful_model_responses": 70
+    },
+    {
+      "variant": "C",
+      "runs": 3,
+      "resolved": 0,
+      "context_errors": 0,
+      "max_successful_input_tokens": 18918,
+      "successful_model_responses": 71
+    },
+    {
+      "variant": "D",
+      "runs": 3,
+      "resolved": 0,
+      "context_errors": 0,
+      "max_successful_input_tokens": 20568,
+      "successful_model_responses": 68
+    }
+  ],
+  "context_failures": [
+    {
+      "event": "error",
+      "run": "A__fastapi_11194",
+      "role": "# Role: Architect (Diagnosis Architect)",
+      "call_id": 105,
+      "error_type": "ContextWindowExceededError",
+      "error": "litellm.ContextWindowExceededError: litellm.BadRequestError: ContextWindowExceededError: OpenAIException - This model's maximum context length is 32768 tokens. However, you requested 16384 output tokens and your prompt contains at least 16385 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=16385)",
+      "time": 1795243042.3247945,
+      "derived_role": "Architect (Diagnosis Architect)",
+      "request_file": "request-00105.json"
+    },
+    {
+      "event": "error",
+      "run": "B__fastapi_11194",
+      "role": "# Role: Architect (Diagnosis Architect)",
+      "call_id": 152,
+      "error_type": "ContextWindowExceededError",
+      "error": "litellm.ContextWindowExceededError: litellm.BadRequestError: ContextWindowExceededError: OpenAIException - This model's maximum context length is 32768 tokens. However, you requested 16384 output tokens and your prompt contains at least 16385 input tokens, for a total of at least 32769 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=16385)",
+      "time": 1795243364.646873,
+      "derived_role": "Architect (Diagnosis Architect)",
+      "request_file": "request-00152.json"
+    }
+  ],
+  "model_requests": 291,
+  "successful_model_responses": 277,
+  "run_finished": {
+    "real_model_requested": true,
+    "runs_completed": 12,
+    "elapsed_seconds": 4364.954889412,
+    "note": "Inspect response usage to confirm actual model inference; empty fields are not zero tokens."
+  },
+  "limits": [
+    "three tasks, one stochastic run per variant; no statistical claim",
+    "successful usage excludes requests rejected before inference",
+    "requests_6629 verification has 185 httpbin fixture setup errors in every variant",
+    "no product source files changed; fallback patches contain scratch and sometimes state files",
+    "Kaggle AgentTool child runners do not automatically inherit parent App compaction",
+    "8192 output ceiling mitigated observed overflow; does not enforce a universal input limit"
+  ],
+  "new_competition_submission": false
+}

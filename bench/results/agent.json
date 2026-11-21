@@ -1,0 +1,109 @@
+{
+  "n": 15,
+  "passed": 1,
+  "rate": 0.06666666666666667,
+  "rows": [
+    {
+      "instance_id": "rich_b17c6169",
+      "resolved": false,
+      "agent_seconds": 120.0,
+      "patch_lines": 29,
+      "test_output": "================\ntest_console.py::test_input_password\n  /opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/getpass.py:66: GetPassWarning: Can not control echo on the terminal.\n    passwd = fallback_getpass(prompt, stream)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nFAILED tests/test_console.py::test_input_password - OSError: pytest: reading ...\n1 failed, 98 passed, 1 warning in 0.61s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_39ee57df",
+      "resolved": false,
+      "error": "agent_patch_apply_failed",
+      "agent_seconds": 150.6
+    },
+    {
+      "instance_id": "rich_95fe8ff5",
+      "resolved": false,
+      "agent_seconds": 157.5,
+      "patch_lines": 22,
+      "test_output": "tionError: assert 'what i...\nFAILED tests/test_prompt.py::test_prompt_str_case_insensitive - AssertionErro...\nFAILED tests/test_prompt.py::test_prompt_int - AssertionError: assert 'Enter ...\nFAILED tests/test_prompt.py::test_prompt_confirm_no - AssertionError: assert ...\nFAILED tests/test_prompt.py::test_prompt_confirm_yes - AssertionError: assert...\nFAILED tests/test_prompt.py::test_prompt_confirm_default - AssertionError: as...\nFAILED tests/test_prompt.py::test_prompt_confirm_markup - AssertionError: ass...\n7 failed, 1 passed in 0.12s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_0c271d5b",
+      "resolved": false,
+      "agent_seconds": 146.0,
+      "patch_lines": 19,
+      "test_output": "pect.py::test_qualname_in_slots - AssertionError: Class ...\nFAILED tests/test_inspect.py::test_can_handle_special_characters_in_docstrings[\\x07-\\\\a]\nFAILED tests/test_inspect.py::test_can_handle_special_characters_in_docstrings[\\x08-\\\\b]\nFAILED tests/test_inspect.py::test_can_handle_special_characters_in_docstrings[\\x0c-\\\\f]\nFAILED tests/test_inspect.py::test_can_handle_special_characters_in_docstrings[\\r-\\\\r]\nFAILED tests/test_inspect.py::test_can_handle_special_characters_in_docstrings[\\x0b-\\\\v]\n8 failed, 34 passed, 4 skipped in 0.17s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_30e5ed61",
+      "resolved": false,
+      "agent_seconds": 86.4,
+      "patch_lines": 15,
+      "test_output": "args, _param_mark=marker)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nFAILED tests/test_panel.py::test_render_size - AssertionError: assert [[Segme...\nFAILED tests/test_panel.py::test_title_text - AssertionError: assert '╭──────...\nFAILED tests/test_panel.py::test_title_text_with_border_color - AssertionErro...\nFAILED tests/test_panel.py::test_title_text_with_panel_background - Assertion...\n4 failed, 9 passed, 1 warning in 0.10s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_16b38304",
+      "resolved": false,
+      "agent_seconds": 152.8,
+      "patch_lines": 36,
+      "test_output": "9: in <module>\n    from rich.console import Console\nrich/console.py:62: in <module>\n    from .scope import render_scope\nrich/scope.py:7: in <module>\n    from .table import Table\nE     File \"/Users/jiamingwei/gitCode/kaggle/bench/results/_worktrees/rich_16b38304/rich/table.py\", line 453\nE       ]\nE       ^\nE   SyntaxError: unmatched ']'\n=========================== short test summary info ============================\nERROR tests/test_table.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 0.15s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_be42f1b0",
+      "resolved": false,
+      "error": "agent_patch_apply_failed",
+      "agent_seconds": 75.7
+    },
+    {
+      "instance_id": "rich_f591471c",
+      "resolved": false,
+      "error": "agent_patch_apply_failed",
+      "agent_seconds": 153.6
+    },
+    {
+      "instance_id": "rich_f021979c",
+      "resolved": false,
+      "agent_seconds": 286.8,
+      "patch_lines": 13,
+      "test_output": "sequences[9] - Assertion...\nFAILED tests/test_ansi.py::test_strip_private_escape_sequences[:] - Assertion...\nFAILED tests/test_ansi.py::test_strip_private_escape_sequences[;] - Assertion...\nFAILED tests/test_ansi.py::test_strip_private_escape_sequences[<] - Assertion...\nFAILED tests/test_ansi.py::test_strip_private_escape_sequences[=] - Assertion...\nFAILED tests/test_ansi.py::test_strip_private_escape_sequences[>] - Assertion...\nFAILED tests/test_ansi.py::test_strip_private_escape_sequences[?] - Assertion...\n22 failed, 1 passed in 0.11s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_15cc59b1",
+      "resolved": false,
+      "agent_seconds": 133.4,
+      "patch_lines": 58,
+      "test_output": " False.\n        \"\"\"\n        assert self.choices is not None\n>       if self.case_insensitive:\n           ^^^^^^^^^^^^^^^^^^^^^\nE       AttributeError: 'Prompt' object has no attribute 'case_insensitive'. Did you mean: 'case_sensitive'?\n\nrich/prompt.py:223: AttributeError\n=========================== short test summary info ============================\nFAILED tests/test_prompt.py::test_prompt_str - AttributeError: 'Prompt' objec...\nFAILED tests/test_prompt.py::test_prompt_str_case_insensitive - AttributeErro...\n2 failed, 5 passed in 0.09s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_92e71647",
+      "resolved": false,
+      "agent_seconds": 242.7,
+      "patch_lines": 25,
+      "test_output": "round-color: #ffffff;\\n}\\n</style>\\n</head>\\n<body>\\n    <pre style=\"font-family:Menlo,\\'DejaVu Sans Mono\\',consolas,\\'Courier New\\',monospace\"><code>foo\\n</code></pre>\\n</body>\\n</html>\\n'\n=========================== short test summary info ============================\nFAILED tests/test_console.py::test_export_html - AssertionError: assert '<!DO...\nFAILED tests/test_console.py::test_export_html_inline - AssertionError: asser...\nFAILED tests/test_console.py::test_save_html - AssertionError: assert '<!DOCT...\n3 failed, 93 passed in 0.18s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_d9eff2aa",
+      "resolved": false,
+      "agent_seconds": 202.7,
+      "patch_lines": 15,
+      "test_output": "her=<tests.test_repr.StupidClass object at 0x107ccda90>, extinct=<tests.test_repr.NotStupid object at 0x107ccd950>)\nE         ?                           --------\nE         + Bird('penguin', ['fish'], <tests.test_repr.StupidClass object at 0x107ccda90>, extinct=<tests.test_repr.NotStupid object at 0x107ccd950>)\n\ntests/test_repr.py:129: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_repr.py::test_rich_repr_auto - assert \"Bird('pengui...0x107...\n1 failed, 7 passed in 0.09s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_e9c9e434",
+      "resolved": true,
+      "agent_seconds": 71.9,
+      "patch_lines": 22,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_1ebf8230",
+      "resolved": false,
+      "agent_seconds": 285.0,
+      "patch_lines": 37,
+      "test_output": " # FORCE_COLOR above doesn't happen in a Jupyter kernel\n        console = Console(\n            file=io.StringIO(), _environ={\"FORCE_COLOR\": \"1\"}, force_jupyter=True\n        )\n>       assert not console.is_terminal\nE       assert not True\nE        +  where True = <console width=115 ColorSystem.TRUECOLOR>.is_terminal\n\ntests/test_console.py:977: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_console.py::test_force_color_jupyter - assert not True\n1 failed, 97 passed in 0.17s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    },
+    {
+      "instance_id": "rich_aa092929",
+      "resolved": false,
+      "agent_seconds": 196.4,
+      "patch_lines": 27,
+      "test_output": ": AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_segment.py::test_divide - UnboundLocalError: cannot access ...\nFAILED tests/test_segment.py::test_divide_emoji - UnboundLocalError: cannot a...\nFAILED tests/test_segment.py::test_divide_edge - UnboundLocalError: cannot ac...\nFAILED tests/test_segment.py::test_divide_edge_2 - UnboundLocalError: cannot ...\nFAILED tests/test_segment.py::test_split_cells_emoji[a1\\u3042\\uff11\\uff11bcdaef-9-result23]\n5 failed, 44 passed in 0.14s\n/Users/jiamingwei/gitCode/kaggle/.venv/lib/python3.14/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option \"asyncio_default_fixture_loop_scope\" is unset.\nThe event loop scope for asynchronous fixtures will default to the \"fixture\" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to \"function\" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: \"function\", \"class\", \"module\", \"package\", \"session\"\n\n  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))\n"
+    }
+  ]
+}

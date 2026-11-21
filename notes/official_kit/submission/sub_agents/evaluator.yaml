@@ -1,0 +1,11 @@
+name: evaluator_agent
+description: Evaluates the multi-agent collaboration system across tasks and recommends evidence-based process improvements. Does not repair the current issue.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/evaluator.md
+tools:
+  - run_command
+  - read_file
+skills:
+  - skills/shared-agent-communication-contract
+  - skills/agent-evaluation
+generate_content_config: !include ../configs/sampling.yaml

@@ -1,0 +1,133 @@
+{
+  "source": "/kaggle/input/competitions/gemma-4-developer-agent",
+  "selection": {
+    "task_count": 5,
+    "task_ids": [
+      "rich_3063",
+      "rich_3043",
+      "fastapi_13713",
+      "fastapi_11194",
+      "requests_6629"
+    ],
+    "note": "Official Kaggle competition files. Snapshots use instance_id names; graphs and embeddings use repo_base_commit names."
+  },
+  "files": [
+    {
+      "path": "tasks.jsonl",
+      "bytes": 18089,
+      "sha256": "4394935621b6abdb1f9a2049cdf1c1feadc16367028c188eaa41eff3edf5b84d"
+    }
+  ],
+  "tasks": [
+    {
+      "instance_id": "rich_3063",
+      "repo": "Textualize/rich",
+      "base_commit": "368e8ad77c95a6bef8f9d332039091d1417296bc",
+      "files": [
+        {
+          "path": "snapshots/rich_3063.tgz",
+          "bytes": 90756400,
+          "sha256": "fcf1bc1b3e7399bd71c14981d31b776a12ecdd3c3d8312a655e1777eb587d5d7"
+        },
+        {
+          "path": "graphs/rich_368e8ad77c95a6bef8f9d332039091d1417296bc.json",
+          "bytes": 2218917,
+          "sha256": "acd0e370d725b1bde53a533a2ef62a7750142968e143e8a7f1e89fb86ff5da2e"
+        },
+        {
+          "path": "embeddings/rich_368e8ad77c95a6bef8f9d332039091d1417296bc.npz",
+          "bytes": 2364221,
+          "sha256": "7b84473e9b6e6dca2e46be64ded024238482bd79a7d822cac386c017a76c5892"
+        }
+      ]
+    },
+    {
+      "instance_id": "rich_3043",
+      "repo": "Textualize/rich",
+      "base_commit": "8a616de8e25db3c93abaaa220c493d80878de69d",
+      "files": [
+        {
+          "path": "snapshots/rich_3043.tgz",
+          "bytes": 90818810,
+          "sha256": "71edf847e2907fcde33ce124f6d57871448c8b55aba059cda75bad05b7653d2d"
+        },
+        {
+          "path": "graphs/rich_8a616de8e25db3c93abaaa220c493d80878de69d.json",
+          "bytes": 2221729,
+          "sha256": "5969d69f63b102ab71abc975a67ee2e796351c1830ee4f85e00de106aea85f50"
+        },
+        {
+          "path": "embeddings/rich_8a616de8e25db3c93abaaa220c493d80878de69d.npz",
+          "bytes": 2366606,
+          "sha256": "3cc0d00eb121e8f2fae5039b8c15c41b221ae0932aa9459212f64d79e088ac97"
+        }
+      ]
+    },
+    {
+      "instance_id": "fastapi_13713",
+      "repo": "fastapi/fastapi",
+      "base_commit": "5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e",
+      "files": [
+        {
+          "path": "snapshots/fastapi_13713.tgz",
+          "bytes": 211447276,
+          "sha256": "12518dc0f275c8a41025dc27af43ff7981a44cc118f8f9fadb8b920af8064bad"
+        },
+        {
+          "path": "graphs/fastapi_5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e.json",
+          "bytes": 3776559,
+          "sha256": "a4ac45c6c48ea042793e935f5c8e0e6eec2a7227cdd788c21540cf219ee89891"
+        },
+        {
+          "path": "embeddings/fastapi_5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e.npz",
+          "bytes": 4137038,
+          "sha256": "e21bc4d5bc72b59f1f0fcf726b3bf9cdad8412cda42f5452b67f9681d361b0ea"
+        }
+      ]
+    },
+    {
+      "instance_id": "fastapi_11194",
+      "repo": "fastapi/fastapi",
+      "base_commit": "a7f2dbe976bf72703376f0cd04487bfc4a849f83",
+      "files": [
+        {
+          "path": "snapshots/fastapi_11194.tgz",
+          "bytes": 214241984,
+          "sha256": "21e42341f416904a0e464cac84f227ff8351bb652d522192212737e6dec663d1"
+        },
+        {
+          "path": "graphs/fastapi_a7f2dbe976bf72703376f0cd04487bfc4a849f83.json",
+          "bytes": 3787549,
+          "sha256": "7ec16396393fadd398243098622c524f341778151c0455bdfec3ef7b0ff812df"
+        },
+        {
+          "path": "embeddings/fastapi_a7f2dbe976bf72703376f0cd04487bfc4a849f83.npz",
+          "bytes": 4158644,
+          "sha256": "46fb70dc9b0e8370136e7da78be77b04ff9f117af6fd67df0b0cc908a00bcef9"
+        }
+      ]
+    },
+    {
+      "instance_id": "requests_6629",
+      "repo": "psf/requests",
+      "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+      "files": [
+        {
+          "path": "snapshots/requests_6629.tgz",
+          "bytes": 36361445,
+          "sha256": "053f2ea73cb7b604f535ee2eabe596dae9df9d7ff54a365d62b4ff0bebab7115"
+        },
+        {
+          "path": "graphs/requests_7a13c041dbef42f9f3feb14110f02626f6892e9a.json",
+          "bytes": 753363,
+          "sha256": "f5c5c87dc6a732ff5977694b4d0a276bcf1f3e6076ff8e6956b09d387d7af937"
+        },
+        {
+          "path": "embeddings/requests_7a13c041dbef42f9f3feb14110f02626f6892e9a.npz",
+          "bytes": 886984,
+          "sha256": "2c92d44d2b7cc6815d7d70d2e56a3cc499e4d7a6174d60a738ec4a00df0d7c9c"
+        }
+      ]
+    }
+  ]
+}

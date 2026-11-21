@@ -1,0 +1,16 @@
+{
+  "source_commit": "eeebfef",
+  "variants": {
+    "A": "fa797522dfd3fadcac6d4e46f00a8caf1bdf4cbd4eee8b3585a03db47a3f1bc5",
+    "D": "0514525a1c2cbb54d668d35bb37c0d1a32cbac1ad220ddf1c8494f2c852ac74a",
+    "B": "a67ae5800f71e3314d9acacaffd180ba56d17a044327a3ea71e5c2f4c58139fb",
+    "C": "73c90bdfd82e759b855ea6697430b569e68fc811fe140946deeeb70626223fce"
+  },
+  "tasks": [
+    "rich_3063",
+    "fastapi_11194",
+    "requests_6629"
+  ],
+  "max_runtime_seconds": 7200,
+  "real_model_inference_yet": false
+}

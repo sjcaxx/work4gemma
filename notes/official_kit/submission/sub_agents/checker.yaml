@@ -1,0 +1,14 @@
+name: checker_agent
+description: Independently reviews the diagnosis, evidence, semantic model, root cause, patch, and validation. Does not edit source code.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/checker.md
+tools:
+  - run_command
+  - read_file
+  - search_similar_code
+  - get_code_neighbors
+  - get_code_subgraph
+skills:
+  - skills/shared-agent-communication-contract
+  - skills/independent-review
+generate_content_config: !include ../configs/sampling.yaml

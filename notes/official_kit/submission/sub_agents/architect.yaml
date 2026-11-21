@@ -1,0 +1,14 @@
+name: architect_agent
+description: Builds and revises an evidence-grounded semantic model and proposes testable root-cause hypotheses. Does not edit source code.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/architect.md
+tools:
+  - read_file
+  - search_similar_code
+  - get_code_neighbors
+  - get_code_subgraph
+  - run_command
+skills:
+  - skills/shared-agent-communication-contract
+  - skills/bug-diagnosis
+generate_content_config: !include ../configs/sampling.yaml

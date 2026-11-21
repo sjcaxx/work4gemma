@@ -1,0 +1,5 @@
+# Versions used for the local CPU checks; not the Kaggle GPU environment.
+networkx==3.5
+numpy==2.3.5
+pytest==8.4.2
+PyYAML==6.0.2

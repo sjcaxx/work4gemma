@@ -1,0 +1,36 @@
+复查本轮真实 Gemma 测试
+
+从仓库根目录运行。验证环境为 Windows、Python 3.13.9、Git for Windows
+（含 Bash）。可先建虚拟环境，再安装本地检查依赖：
+   python -m pip install -r experiments/context-budget-20261121/local-test-requirements.txt
+读取/复算归档不需要模型和 Kaggle 凭据。Kaggle 镜像依赖另由官方 Notebook 安装。
+
+1. 本地功能与实验启动门禁检查（不会运行 Gemma）：
+   python -m pytest tests experiments/context-budget-20261121/runner/test_runner_gate.py -q
+
+2. 校验并解开原始证据到 runner/remote-v2/（Git 忽略的工作目录）：
+   python experiments/context-budget-20261121/runner/verify_evidence.py --extract
+
+3. 从逐轮请求、usage、补丁重新汇总（写入 runner/，不覆盖历史汇总）：
+   python experiments/context-budget-20261121/runner/summarize_run.py
+   对比 runner/real-gemma-results.json 与上层已存档 real-gemma-results.json。
+
+4. 生成一个新的私有离线 Kaggle 实验 Notebook（本地生成，不启动 GPU）：
+   python experiments/context-budget-20261121/runner/build_notebook.py --kaggle-user YOUR_USERNAME
+   输出在 runner/generated/；使用已存档 A/B/C/D ZIP，构建时核对 SHA-256。
+   模型、任务和硬件保持原设定；新 slug 为 codearch-context-abcd-retest，
+   避免覆盖原实验。新模板保留最多 2 小时的单次运行上限，重试另计配额。
+
+只有需要重新做真实推理时，才由有比赛数据权限、已接受模型/比赛规则且有
+GPU 配额的账号上传并运行 generated/。这会消耗 Kaggle GPU 配额，当前步骤
+没有再次运行。它不会自动提交比赛。官方镜像、数据和轮子可能随时间变化。
+
+reference/ 保存本次使用的官方入门 Notebook 和元数据；没有附带模型权重、
+比赛完整数据或 wheelhouse。原始 trace 含任务片段和模型请求，上传默认使用
+私有仓库。公开前应另行检查比赛及数据发布要求。
+
+download_run.py 只用于有权限的原账号重新下载原私有 Notebook v2；
+其他账号通常无权读取。查看现有归档不依赖这个下载功能。
+
+plan-and-manifest.json 是运行前计划，因此 real_model_inference_yet=false
+是历史字段；执行结果以 real-gemma-results.json 和原始 usage 记录为准。

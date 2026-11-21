@@ -1,0 +1,40 @@
+{
+  "test_type": "scripted_backend_with_30000_byte_input_limit",
+  "real_model_inference": false,
+  "real_token_counts": false,
+  "baseline_request_bytes": [
+    4014,
+    10431,
+    16848,
+    23265,
+    29682,
+    36099
+  ],
+  "patched_request_bytes": [
+    4014,
+    10596,
+    17178,
+    23760,
+    19669,
+    20716,
+    21763,
+    22810,
+    23857,
+    24904,
+    24904,
+    24904,
+    24904,
+    24904,
+    24904,
+    24904,
+    24904,
+    24904,
+    24904,
+    23849,
+    22888
+  ],
+  "baseline_completed": false,
+  "patched_completed": true,
+  "patched_target_test_passed": true,
+  "patched_trace_dir": "D:\\appsdata\\codex\\2026-11-20\\git-github-com-nayishan-codearch-git\\CodeArch\\dist\\context_traces\\ec4a5f63ef5c4c46b8e918eff6490c21"
+}

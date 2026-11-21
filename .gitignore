@@ -1,0 +1,36 @@
+# 本地虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 外部克隆的仓库（用 scripts/bootstrap.sh 恢复）
+examples/repos/
+examples/refs/
+examples/_work_mini/
+
+# mini_repo 的 git 元数据（bootstrap 时重建）
+examples/mini_repo/.git/
+
+# benchmark 中间产物（tasks.jsonl 与 results 保留）
+bench/tasks/_worktrees/
+bench/results/_worktrees/
+bench/results/_wt*/
+
+# Official Kaggle smoke5 data: large assets are downloaded separately
+bench/official_smoke5/data/snapshots/*.tgz
+bench/official_smoke5/data/graphs/*.json
+bench/official_smoke5/data/embeddings/*.npz
+
+# 其他
+.DS_Store
+*.log
+.test_tmp/
+.test_tmp_context/
+dist/

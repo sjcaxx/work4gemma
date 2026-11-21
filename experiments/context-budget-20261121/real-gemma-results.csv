@@ -1,0 +1,13 @@
+﻿variant,task,resolved,context_error_count,max_successful_input_tokens,successful_model_responses,tool_calls,patch_characters,wall_seconds,error
+A,rich_3063,False,0,11741,11,10,1355,305.7768083540001,Agent exceeded session timeout (5 min)
+D,rich_3063,False,0,14066,22,20,1911,303.29460650299995,Agent exceeded session timeout (5 min)
+B,rich_3063,False,0,8800,14,12,2074,303.29248110899994,Agent exceeded session timeout (5 min)
+C,rich_3063,False,0,14661,33,31,2422,303.2797782320001,Agent exceeded session timeout (5 min)
+A,fastapi_11194,False,1,15980,35,31,848,308.4363445509998,Agent exceeded session timeout (5 min)
+B,fastapi_11194,False,1,16289,36,32,3259,304.44641787699993,Agent exceeded session timeout (5 min)
+C,fastapi_11194,False,0,18918,25,20,3086,304.518889724,Agent exceeded session timeout (5 min)
+D,fastapi_11194,False,0,20568,33,30,1534,304.49866673199995,Agent exceeded session timeout (5 min)
+A,requests_6629,False,0,12962,22,20,6070,368.1425549559999,Agent exceeded session timeout (5 min)
+B,requests_6629,False,0,10005,20,18,3283,367.72106247400006,Agent exceeded session timeout (5 min)
+C,requests_6629,False,0,8049,13,11,3508,367.70321218699974,Agent exceeded session timeout (5 min)
+D,requests_6629,False,0,8357,13,11,4959,367.70197332099997,Agent exceeded session timeout (5 min)

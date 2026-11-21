@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-11-21T08:44:43.829681+00:00",
+  "python": "3.13.9",
+  "platform": "Windows",
+  "checks": {
+    "pytest_tests_and_smoke_gate": "14 passed",
+    "raw_kaggle_output_files_hash_verified": 438,
+    "raw_zip_entries_including_local_manifest_and_log": 440,
+    "recomputed_report_equals_archived_report": true,
+    "generated_notebook_cells_parse": true,
+    "four_generated_submission_hashes_match_original_experiment": true,
+    "credential_pattern_scan_blobs": 566,
+    "credential_pattern_matches": 0
+  },
+  "note": "CPU checks only; these do not rerun Gemma or change Kaggle results."
+}

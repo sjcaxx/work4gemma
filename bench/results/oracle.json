@@ -1,0 +1,112 @@
+{
+  "n": 15,
+  "passed": 15,
+  "rate": 1.0,
+  "rows": [
+    {
+      "instance_id": "rich_b17c6169",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 248,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_39ee57df",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 23,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_95fe8ff5",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 13,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_0c271d5b",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 15,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_30e5ed61",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 32,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_16b38304",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 13,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_be42f1b0",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 15,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_f591471c",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 13,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_f021979c",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 12,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_15cc59b1",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 109,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_92e71647",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 13,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_d9eff2aa",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 13,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_e9c9e434",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 13,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_1ebf8230",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 32,
+      "test_output": ""
+    },
+    {
+      "instance_id": "rich_aa092929",
+      "resolved": true,
+      "agent_seconds": 0.0,
+      "patch_lines": 13,
+      "test_output": ""
+    }
+  ]
+}

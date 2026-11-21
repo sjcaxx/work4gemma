@@ -1,0 +1,29 @@
+name: swe_project_manager
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include prompts/project-manager.md
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - write_file
+  - get_status
+  - submit_patch
+  - get_code_neighbors
+  - search_similar_code
+  - get_code_subgraph
+  - agent_tool:
+      config_path: sub_agents/architect.yaml
+      skip_summarization: true
+  - agent_tool:
+      config_path: sub_agents/worker.yaml
+      skip_summarization: true
+  - agent_tool:
+      config_path: sub_agents/checker.yaml
+      skip_summarization: true
+  - agent_tool:
+      config_path: sub_agents/evaluator.yaml
+      skip_summarization: true
+skills:
+  - skills/shared-agent-communication-contract
+  - skills/task-orchestration
+generate_content_config: !include configs/sampling.yaml

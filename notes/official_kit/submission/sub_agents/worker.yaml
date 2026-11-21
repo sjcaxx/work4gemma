@@ -1,0 +1,17 @@
+name: worker_agent
+description: Reproduces and investigates assigned behavior, reports evidence, and implements an explicitly authorized repair.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include ../prompts/worker.md
+tools:
+  - run_command
+  - read_file
+  - edit_file
+  - write_file
+  - get_status
+  - search_similar_code
+  - get_code_neighbors
+  - get_code_subgraph
+skills:
+  - skills/shared-agent-communication-contract
+  - skills/bug-investigation
+generate_content_config: !include ../configs/sampling.yaml

@@ -1,0 +1,11 @@
+{
+  "source_repository": "https://github.com/nayishan/CodeArch",
+  "source_commit": "eeebfef276332c0046bf702073dad63d7f4b7194",
+  "kaggle_notebook": "yeaowohe/codearch-real-gemma-context-abcd",
+  "executed_notebook_version": 2,
+  "raw_archive_sha256": "7de477568808956fb164cc2ebdca3d30af66f548d08eee51041a63e9c07e60b4",
+  "raw_files_including_download_manifest": 440,
+  "real_inference": true,
+  "new_competition_submission": false,
+  "note": "plan-and-manifest.json records pre-run intent; real-gemma-results.json records outcomes. runner/ includes post-review smoke-gate, cleanup and portability improvements, not retroactive changes to executed run-v2.ipynb."
+}
